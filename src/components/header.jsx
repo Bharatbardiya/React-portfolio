@@ -4,7 +4,7 @@ import { Link, BrowserRouter as Router} from "react-router-dom";
 
 function Header(props) {
   return (
-    <div className="header">
+    <div className="header max-width-1">
       <div className="logo">
         <a href="#">Bharat</a>
       </div>

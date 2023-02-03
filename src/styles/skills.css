@@ -1,0 +1,20 @@
+.skill-comp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.skill-comp .skill-head{
+    text-align: left;
+
+}
+.skill-list{
+    display: flex;
+    flex-direction: row;
+}
+
+li.skill-item{
+    list-style: none;
+    margin: 5px;
+    padding: 0 10px;
+    border: 2px solid red;
+}

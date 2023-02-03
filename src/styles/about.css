@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -19,4 +19,18 @@
   max-width: 400px;
   display: flex;
   flex-direction:column;
+  text-align: left;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+}
+
+.social{
+  margin: 5px;
+  
+}
+.social a img{
+  padding-top: 2px;
+  width: 45px;
 }
